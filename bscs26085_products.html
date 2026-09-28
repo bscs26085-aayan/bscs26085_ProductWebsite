@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Deskwell</title>
+  <link rel="stylesheet" href="bscs26085_style.css">
+</head>
+<body>
+
+  <!-- Header / Navbar (same as Home page) -->
+  <header class="navbar">
+    <a class="brand" href="bscs26085_home.html"><span class="brand-mark" aria-hidden="true"></span>Deskwell</a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="bscs26085_home.html">Home</a></li>
+        <li><a href="bscs26085_products.html" aria-current="page">Products</a></li>
+        <li><a href="bscs26085_contact.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <h1>Our products</h1>
+      <p>Everything you need for a comfortable, focused desk. Prices are in Pakistani rupees.</p>
+    </div>
+
+    <div class="product-list">
+
+      <!-- Product 1 -->
+      <article class="product">
+        <img src="bscs26085_image2.jpeg" alt="Tactile 75 mechanical keyboard with sage and cream keycaps">
+        <div class="product-info">
+          <h2>Tactile 75 Mechanical Keyboard</h2>
+          <div class="meta">
+            <span class="price">Rs. 14,900</span>
+            <span class="badge in-stock"></span>
+          </div>
+          <p>A compact 75% keyboard that keeps your arrow keys and saves desk space. The switches are hot-swappable, so you can change how it feels without soldering.</p>
+          <ul class="features">
+            <li>Quiet gasket-mounted typing feel</li>
+            <li>Bluetooth for 3 devices, or wired USB-C</li>
+            <li>Battery lasts up to 4 weeks</li>
+          </ul>
+          <button oncilck="checkAvailability('In stock')">Check Availbility</button>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="product">
+        <img src="bscs26085_image3.jpeg" alt="Glide wireless mouse with a USB receiver">
+        <div class="product-info">
+          <h2>Glide Wireless Mouse</h2>
+          <div class="meta">
+            <span class="price">Rs. 3,800</span>
+            <span class="badge in-stock"></span>
+          </div>
+          <p>A light, low-profile mouse shaped to fit your hand through long study sessions. It pairs with the USB receiver or over Bluetooth.</p>
+          <ul class="features">
+            <li>Silent-click buttons, good for libraries</li>
+            <li>Adjustable sensor from 800 to 3200 DPI</li>
+            <li>Runs for 6 months on one AA battery</li>
+          </ul>
+          <button onclick="checkAvailability('Not in stock')">Check Availbility</button>
+        </div>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="product">
+        <img src="bscs26085_image4.jpeg" alt="Halo monitor light bar glowing above a monitor">
+        <div class="product-info">
+          <h2>Halo Monitor Light Bar</h2>
+          <div class="meta">
+            <span class="price">Rs. 6,500</span>
+            <span class="badge out-stock"></span>
+          </div>
+          <p>A slim lamp that clips onto the top of your monitor and lights your desk without any glare on the screen. Ideal for late-night coding.</p>
+          <ul class="features">
+            <li>Warm to cool light, adjustable brightness</li>
+            <li>Clips onto monitors of any thickness</li>
+            <li>Powered over USB, no extra adapter</li>
+          </ul>
+          <button onclick="checkAvailability('In stock')">Check Availbility</button>
+        </div>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="product">
+        <img src="bscs26085_image5.jpeg" alt="Lift aluminium laptop stand holding a laptop at an angle">
+        <div class="product-info">
+          <h2>Lift Aluminium Laptop Stand</h2>
+          <div class="meta">
+            <span class="price">Rs. 4,200</span>
+            <span class="badge in-stock"></span>
+          </div>
+          <p>Raises your laptop screen to eye level so you stop hunching over it. The open design lets air flow under the laptop and keeps it cooler.</p>
+          <ul class="features">
+            <li>Solid aluminium, holds up to 10 kg</li>
+            <li>Fits laptops from 11 to 17 inches</li>
+            <li>Folds flat to slip into a backpack</li>
+          </ul>
+          <button onclick="checkAvailability('In stock')">Check Availbility</button>
+        </div>
+      </article>
+
+      <!-- Product 5 -->
+      <article class="product">
+        <img src="nscs26085_image6.jpeg" alt="Wide desk mat with stitched edges under a keyboard and mouse">
+        <div class="product-info">
+          <h2>Wide Desk Mat</h2>
+          <div class="meta">
+            <span class="price">Rs. 2,900</span>
+            <span class="badge in-stock"></span>
+          </div>
+          <p>A big mat with stitched edges that fits your keyboard, mouse and notebook in one place. The soft top makes your mouse glide and cuts down keyboard noise.</p>
+          <ul class="features">
+            <li>90 x 40 cm, water-resistant surface</li>
+            <li>Non-slip rubber base</li>
+            <li>Easy to wipe clean</li>
+          </ul>
+          <button onclick="checkAvailability('In stock')">Check Availbility</button>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Deskwell</h3>
+        <p>Gear for the desk you actually work at.</p>
+      </div>
+      <address>
+        <h3>Contact us</h3>
+        <dl>
+          <dt>Cell</dt>
+          <dd><a href="tel:+923001234567">+92 300 1234567</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:hello@deskwell.pk">hello@deskwell.pk</a></dd>
+          <dt>Location</dt>
+          <dd>Lahore, Punjab, Pakistan</dd>
+        </dl>
+      </address>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Deskwell. All rights reserved.</div>
+  </footer>
+
+  <script src="bscs26085_script.js"></script>
+</body>
+</html>
